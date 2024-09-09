@@ -1,8 +1,8 @@
 import java.util.Scanner;
 public class Calculadora {
 
-    private double valor1;
-    private double valor2;
+    public  double valor1;
+    public double valor2;
 
     // Constructor de la clase
     public Calculadora(double valor1, double valor2) {
@@ -11,8 +11,8 @@ public class Calculadora {
     }
 
     // Método para sumar los dos valores
-    public double sumar() {
-        return valor1 + valor2;
+    public  double  sumar() {
+            return valor1 + valor2;
     }
 
     // Método para restar los dos valores
